@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(60deg,white,#57C5B6,#159895);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+table{
+    margin: auto;
+    margin-top: 0.8rem;
+}
+
+ input{
+     font-size: 1.7rem;
+     height: 6rem;
+     border: none;
+     text-align: end;
+     font-weight: bold;
+     background-color: black;
+     color: white;
+ }
+
+ button{
+     font-size: 1.5rem;
+     width: 3.8rem;
+     height: 3.8rem;
+     margin: 1rem;
+     border-radius: 25%;
+     border-width: 0;
+     font-weight: 500;
+ }
+
+ button:hover{
+     cursor: pointer;
+ }
+
+ .calculator{
+     display: inline-block;
+     background: black;
+     margin: 1rem;
+     padding: 0.5rem;
+     border-radius: 0.3rem;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .calculator .c1{
+     background-color: rgb(250, 99, 99);
+ }
+ .calculator .c1:hover{
+    background-color: rgb(252, 43, 43);
+}
+
+ .calculator .c2{
+     background-color: greenyellow;
+ }
+ .calculator .c2:hover{
+    background-color: rgb(128, 210, 4);
+}
+
+ .calculator .c3{
+    background-color: rgb(199, 226, 236);
+}
+.calculator .c3:hover{
+    background-color: rgb(159, 222, 245);
+}
+
+.calculator .c4{
+    background-color: rgb(243, 162, 162);
+}
+.calculator .c4:hover{
+    background-color: rgb(252, 116, 116);
+}
+
+.calculator .clr{
+    background-color: rgb(182, 240, 249);
+}
+.calculator .clr:hover{
+    background-color: rgb(123, 233, 250);
+}
+#display{
+    background-color:#D8D8D8;
+    color: black;
+    margin-left: 8px;
+    padding-right: 10px;
+    margin-top: 10px;
+    border-radius:5px ;
+
+}
